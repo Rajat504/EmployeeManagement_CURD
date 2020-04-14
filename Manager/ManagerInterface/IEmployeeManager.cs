@@ -17,12 +17,13 @@ namespace Manager.ManagerInterface
     {
         Employee GetEmployee(int id);
 
-        IEnumerable<Employee> GetAllEmployees();
+        Task<IEnumerable<Employee>> GetAllEmployees();
         
         Task<int> AddEmployee(Employee employee);
         
         Task<int> UpdateEmployee(Employee employeeChanges);
         
         Employee DeleteEmployee(int id);
+        bool LoginEmployee(string email, string password);
     }
 }

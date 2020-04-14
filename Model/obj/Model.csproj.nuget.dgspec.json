@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rajat\\Desktop\\EmployeeManagement_CURD\\EmployeeDb\\Model\\Model.csproj": {}
+    "C:\\Users\\rajat\\Desktop\\EmployeeManagement_CURD\\Model\\Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rajat\\Desktop\\EmployeeManagement_CURD\\EmployeeDb\\Model\\Model.csproj": {
+    "C:\\Users\\rajat\\Desktop\\EmployeeManagement_CURD\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rajat\\Desktop\\EmployeeManagement_CURD\\EmployeeDb\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\rajat\\Desktop\\EmployeeManagement_CURD\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\rajat\\Desktop\\EmployeeManagement_CURD\\EmployeeDb\\Model\\Model.csproj",
+        "projectPath": "C:\\Users\\rajat\\Desktop\\EmployeeManagement_CURD\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\rajat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rajat\\Desktop\\EmployeeManagement_CURD\\EmployeeDb\\Model\\obj\\",
+        "outputPath": "C:\\Users\\rajat\\Desktop\\EmployeeManagement_CURD\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

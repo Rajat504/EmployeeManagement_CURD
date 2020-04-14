@@ -13,3 +13,16 @@ C:\Users\Shiv\Desktop\EmployeeMangementCurdApi_WebApi\Repository\obj\Debug\netco
 C:\Users\Shiv\Desktop\EmployeeMangementCurdApi_WebApi\Repository\obj\Debug\netcoreapp2.1\Repository.dll
 C:\Users\Shiv\Desktop\EmployeeMangementCurdApi_WebApi\Repository\obj\Debug\netcoreapp2.1\Repository.pdb
 C:\Users\Shiv\Desktop\EmployeeMangementCurdApi_WebApi\Repository\obj\Debug\netcoreapp2.1\Repository.genruntimeconfig.cache
+C:\Users\rajat\Desktop\EmployeeManagement_CURD\Repository\bin\Debug\netcoreapp2.1\Repository.deps.json
+C:\Users\rajat\Desktop\EmployeeManagement_CURD\Repository\bin\Debug\netcoreapp2.1\Repository.runtimeconfig.json
+C:\Users\rajat\Desktop\EmployeeManagement_CURD\Repository\bin\Debug\netcoreapp2.1\Repository.runtimeconfig.dev.json
+C:\Users\rajat\Desktop\EmployeeManagement_CURD\Repository\bin\Debug\netcoreapp2.1\Repository.dll
+C:\Users\rajat\Desktop\EmployeeManagement_CURD\Repository\bin\Debug\netcoreapp2.1\Repository.pdb
+C:\Users\rajat\Desktop\EmployeeManagement_CURD\Repository\bin\Debug\netcoreapp2.1\Model.dll
+C:\Users\rajat\Desktop\EmployeeManagement_CURD\Repository\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Users\rajat\Desktop\EmployeeManagement_CURD\Repository\obj\Debug\netcoreapp2.1\Repository.csprojAssemblyReference.cache
+C:\Users\rajat\Desktop\EmployeeManagement_CURD\Repository\obj\Debug\netcoreapp2.1\Repository.AssemblyInfoInputs.cache
+C:\Users\rajat\Desktop\EmployeeManagement_CURD\Repository\obj\Debug\netcoreapp2.1\Repository.AssemblyInfo.cs
+C:\Users\rajat\Desktop\EmployeeManagement_CURD\Repository\obj\Debug\netcoreapp2.1\Repository.csproj.CopyComplete
+C:\Users\rajat\Desktop\EmployeeManagement_CURD\Repository\obj\Debug\netcoreapp2.1\Repository.dll
+C:\Users\rajat\Desktop\EmployeeManagement_CURD\Repository\obj\Debug\netcoreapp2.1\Repository.pdb

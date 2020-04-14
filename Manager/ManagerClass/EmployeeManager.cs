@@ -12,6 +12,7 @@ namespace Manager.ManagerImplementation
     using Repository.RepositoryInterface;
     using System;
     using System.Collections.Generic;
+    using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
 
@@ -34,9 +35,10 @@ namespace Manager.ManagerImplementation
             return this.repo.DeleteEmployee(id);
         }
 
-        public IEnumerable<Employee> GetAllEmployees()
+        public async Task<IEnumerable<Employee>> GetAllEmployees()
         {
-            return this.repo.GetAllEmployees();
+            var data= await this.repo.GetAllEmployees();
+            return data.ToList();
         }
 
         public Employee GetEmployee(int id)
@@ -48,6 +50,10 @@ namespace Manager.ManagerImplementation
         public Task<int> UpdateEmployee(Employee employeeChanges)
         {
             return this.repo.UpdateEmployee(employeeChanges);
+        }
+        public bool LoginEmployee(string email, string password)
+        {
+            return true;
         }
     }
 }

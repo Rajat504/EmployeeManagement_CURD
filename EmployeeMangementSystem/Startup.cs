@@ -51,11 +51,11 @@ namespace EmployeeMangementCurd_Api
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c =>
-                {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "MyApi V1");
-                });
+                //app.UseSwagger();
+                //app.UseSwaggerUI(c =>
+                //{
+                //    c.SwaggerEndpoint("/swagger/v1/swagger.json", "MyApi V1");
+                //});
             }
             else
             {
@@ -63,7 +63,13 @@ namespace EmployeeMangementCurd_Api
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=EmployeeController}/{action=LoginEmployee}/{id?}"
+                    );
+            });
         }
     }
 }

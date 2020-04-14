@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="HomeStyle.css">
+</head>
+<body>
+
+    <div class="navigation">
+        <label>
+            <a href="https://localhost:44396/Login.html">Login</a>
+        </label>
+        <label>
+            <a href="https://localhost:44396/HomePage.html">Home</a>
+        </label>
+
+    </div>
+    <span class="Employeespan">
+        <button type="button" class="AddEmployee">Add Employee</button>
+    </span>
+    <sapn class="Header1" id="record">
+        No Record Found!!!
+    </sapn>
+    <table class="table">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <tbody id="data">
+        </tbody>
+    </table>
+
+    <script>
+        var xHttp = new XMLHttpRequest();
+        xHttp.open("GET", 'https://localhost:44369/api/Employee/GetAllEmployee');
+        xHttp.onload = function () {
+            // console.log(xHttp.responseText);
+            var data = JSON.parse(xHttp.responseText);
+            if (data == null) {
+                document.getElementById("record").style.display = "block";
+            }
+            console.log(data);
+            var html = "";
+            for (var a = 0; a < data.length; a++) {
+                var firstName = data[a].firstName;
+                var lastName = data[a].lastName;
+                var email = data[a].emailId;
+                html += "<tr>";
+                html += "<td>" + firstName + "</td>";
+                html += "<td>" + lastName + "</td>";
+                html += "<td>" + email + "</td>";
+                html += `<td><button class="fa fa-user-times btn btn-primary"></button></td>`;
+                html += `<td><button class="fas fa-trash-alt btn btn-danger"></button></td>`;
+                html += "</tr>";
+            }
+            document.getElementById("data").innerHTML += html;
+        }
+
+        xHttp.send();
+
+
+    </script>
+</body>
+</html>

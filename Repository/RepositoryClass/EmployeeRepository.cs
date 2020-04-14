@@ -59,7 +59,7 @@ namespace Repository.RepositoryClass
         /// GetAllEmployees method.
         /// </summary>
         /// <returns></returns>
-        public IEnumerable<Model.Employee> GetAllEmployees()
+        public async Task<IEnumerable<Model.Employee>> GetAllEmployees()
         {
             return userDBContext.Employees;
         }

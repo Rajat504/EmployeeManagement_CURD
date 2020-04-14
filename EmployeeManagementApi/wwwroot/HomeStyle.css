@@ -1,0 +1,156 @@
+﻿body {
+    background: url(Video-Featured-final.jpg);
+    backface-visibility: inherit;
+}
+
+.table{
+    width: 1030px;
+    background:border-box;
+    background-color: #ececec;
+    text-align: right;
+    padding: 5px;
+    margin-left: 240px;
+}
+
+.navigation {
+    margin-left: -8px;
+    margin-top: -8px;
+    display: block;
+    width: auto;
+    background: #ececec;
+    padding: 4px;
+    word-spacing: 13px;
+    display: block;
+}
+
+.Employeespan{
+    margin-bottom: 20px;
+    margin-left: 64px;
+    display: inline-block;
+}
+
+.AddEmployee {
+    margin-top: 57px;
+    margin-left: 3px;
+    background-color: #157ae8;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    font-family: inherit;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.Header1 {
+    width: 364px;
+    height: 25px;
+    color: #fff;
+    top: 60px;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 6px 15px;
+    border: solid;
+    border-width: inherit;
+    border-color: #000;
+    font-size: 40px;
+    text-align: left;
+}
+
+.Firstname {
+    width: 200px;
+    height: 37px;
+    background: #ececec;
+    color: #000;
+    top: 22%;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 6px 15px;
+    border: solid;
+    border-width: inherit;
+    border-color: #000;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Adobe Arabic'; 
+}
+
+.Lastname {
+    width: 200px;
+    height: 37px;
+    background: #ececec;
+    color: #000;
+    top: 22%;
+    left: 539px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 6px 15px;
+    border: solid;
+    border-width: inherit;
+    border-color: #000;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Adobe Arabic';
+}
+
+.Email {
+    width: 200px;
+    height: 37px;
+    background: #ececec;
+    color: #000;
+    top: 22%;
+    left: 736px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 6px 15px;
+    border: solid;
+    border-width: inherit;
+    border-color: #000;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Adobe Arabic';
+}
+
+.Edit {
+    width: 200px;
+    height: 37px;
+    background: #ececec;
+    color: #000;
+    top: 22%;
+    left: 933px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 6px 15px;
+    border: solid;
+    border-width: inherit;
+    border-color: #000;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Adobe Arabic';
+}
+
+.Delete {
+    width: 200px;
+    height: 37px;
+    background: #ececec;
+    color: #000;
+    top: 22%;
+    left: 1130px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 6px 15px;
+    border: solid;
+    border-width: inherit;
+    border-color: #000;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Adobe Arabic';
+}
+
+

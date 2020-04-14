@@ -40,9 +40,9 @@ namespace EmployeeMangementCurd_Api.Controllers
 
         [Route("GetAllEmployee")]
         [HttpGet]
-        public IEnumerable<Employee> GetAllEmployees()
+        public async Task<IActionResult> GetAllEmployees()
         {
-            return this.manager.GetAllEmployees();
+            return Ok(await manager.GetAllEmployees());
         }
 
         [Route("UpdateEmployee")]
@@ -67,11 +67,25 @@ namespace EmployeeMangementCurd_Api.Controllers
             return this.manager.DeleteEmployee(id);
         }
 
-        [Route("GetEmployee")]
-        [HttpGet]
+        //[Route("GetEmployee")]
+        [HttpGet("GetEmployee/{id}")]
         public Employee GetEmployee(int id)
         {
             return this.manager.GetEmployee(id);
+        }
+        [Route("LoginEmployee")]
+        [HttpPost]
+        public IActionResult LoginEmployee(string email, string password)
+        {
+            var result = this.manager.LoginEmployee(email, password);
+            if (result == true)
+            {
+                return this.Ok(email);
+            }
+            else
+            {
+                return this.BadRequest();
+            }
         }
     }
 }

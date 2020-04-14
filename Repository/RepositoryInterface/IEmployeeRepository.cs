@@ -26,7 +26,7 @@ namespace Repository.RepositoryInterface
         /// GetAllEmployees method.
         /// </summary>
         /// <returns></returns>
-        IEnumerable<Employee> GetAllEmployees();
+        Task<IEnumerable<Employee>> GetAllEmployees();
 
         /// <summary>
         /// AddEmployee method.

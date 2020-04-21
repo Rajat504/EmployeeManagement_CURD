@@ -76,7 +76,7 @@ namespace QuantityMeasurement_Backend.Controllers
             return this.BadRequest();
         }
         [Route("GramToKilogram")]
-        []
+        [HttpPost]
         public IActionResult GramToKilogram(conversion value)
         {
             var result = this.manager.GramToKilogram(value);

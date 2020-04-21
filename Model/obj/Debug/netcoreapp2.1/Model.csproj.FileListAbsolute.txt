@@ -8,3 +8,13 @@ C:\Users\rajat\source\repos\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfo.cs
 C:\Users\rajat\source\repos\Model\obj\Debug\netcoreapp2.1\Model.dll
 C:\Users\rajat\source\repos\Model\obj\Debug\netcoreapp2.1\Model.pdb
 C:\Users\rajat\source\repos\Model\obj\Debug\netcoreapp2.1\Model.csprojAssemblyReference.cache
+C:\Users\rajat\Desktop\New folder\EmployeeManagement_CURD\Model\bin\Debug\netcoreapp2.1\Model.deps.json
+C:\Users\rajat\Desktop\New folder\EmployeeManagement_CURD\Model\bin\Debug\netcoreapp2.1\Model.runtimeconfig.json
+C:\Users\rajat\Desktop\New folder\EmployeeManagement_CURD\Model\bin\Debug\netcoreapp2.1\Model.runtimeconfig.dev.json
+C:\Users\rajat\Desktop\New folder\EmployeeManagement_CURD\Model\bin\Debug\netcoreapp2.1\Model.dll
+C:\Users\rajat\Desktop\New folder\EmployeeManagement_CURD\Model\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Users\rajat\Desktop\New folder\EmployeeManagement_CURD\Model\obj\Debug\netcoreapp2.1\Model.csprojAssemblyReference.cache
+C:\Users\rajat\Desktop\New folder\EmployeeManagement_CURD\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfoInputs.cache
+C:\Users\rajat\Desktop\New folder\EmployeeManagement_CURD\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfo.cs
+C:\Users\rajat\Desktop\New folder\EmployeeManagement_CURD\Model\obj\Debug\netcoreapp2.1\Model.dll
+C:\Users\rajat\Desktop\New folder\EmployeeManagement_CURD\Model\obj\Debug\netcoreapp2.1\Model.pdb

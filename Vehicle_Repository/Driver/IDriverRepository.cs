@@ -1,5 +1,4 @@
 ﻿using Bogus.DataSets;
-using Model_Class;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -14,6 +13,7 @@ namespace Vehicle_Repository.Driver
         double ParkingCharge(int ParkingSlotNumber);
         IEnumerable<Vehicle> GetVehicles();
         Task<int> AddParking(Vehicle vehicle);
+        Vehicle RemoveParking(int ParkingSlotNumber);
 
-   }
+    }
 }

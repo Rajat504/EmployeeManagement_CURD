@@ -6,6 +6,6 @@ namespace Vehicle_Repository
 {
     public class VehicleDBContext
     {
-
+        internal object vehicle;
     }
 }

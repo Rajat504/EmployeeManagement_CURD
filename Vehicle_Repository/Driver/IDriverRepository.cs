@@ -1,0 +1,19 @@
+﻿using Bogus.DataSets;
+using Model_Class;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Vehicle_Repository.Driver
+{
+   public interface IDriverRepository
+   {
+        string GetParkingSpace();
+        Vehicle GetVehicle(int ParkingSlotNumber);
+        double ParkingCharge(int ParkingSlotNumber);
+        IEnumerable<Vehicle> GetVehicles();
+        Task<int> AddParking(Vehicle vehicle);
+
+   }
+}

@@ -37,40 +37,47 @@ namespace Vehicle_Repository.Driver
         public double ParkingCharge(int ParkingSlotNumber)
         {
             Vehicle vehicle = vehicleDBContext.vehicle.Find(ParkingSlotNumber);
-            DateTime Entrytime = vehicle.EntryTime;
+            DateTime Entrytime =vehicle.EntryTime;
             DateTime ExitTime = vehicle.ExitTime;
             double totalhour = (Entrytime - ExitTime).TotalHours;
-            if(vehicle.ParkingType.Equals("valletparking", StringComparison.InvariantCultureIgnoreCase)
+            if (vehicle.ParkingType.Equals("valletparking", StringComparison.InvariantCultureIgnoreCase)
                 && vehicle.drivertype.Equals("ParkingHour", StringComparison.InvariantCultureIgnoreCase))
             {
                 return totalhour * 0;
             }
-            else if (vehicle.parkingType.Equals("own", StringComparison.InvariantCultureIgnoreCase)
-              && vehicle.drivertype.Equals("normal", StringComparison.InvariantCultureIgnoreCase))
+            else if (vehicle.ParkingType.Equals("own", StringComparison.InvariantCultureIgnoreCase)
+                    && vehicle.drivertype.Equals("normal", StringComparison.InvariantCultureIgnoreCase))
                  {
-                   if (totalhour < 1)
-                   {
+                if (totalhour < 1)
+                {
                     return 50;
-                   }
-                   if (vehicle.vehicleType.Equals("twowheeler", StringComparison.InvariantCultureIgnoreCase) && totalhour >= 1)
-                   {
-                    return totalHour * vehicle.ChargePerHour;
-                   }
-                   else if (vehicle.vehicleType.Equals("fourwheeler", StringComparison.InvariantCultureIgnoreCase) && totalHour >= 1)
-                   {
-                    return totalHour * vehicle.chargesPerHr;
-                   }
+                }
+                if (vehicle.VehicleType.Equals("twowheeler", StringComparison.InvariantCultureIgnoreCase) && totalhour >= 1)
+                {
+                    return totalhour * vehicle.Chargeperhour;
+                }
+                else if (vehicle.VehicleType.Equals("fourwheeler", StringComparison.InvariantCultureIgnoreCase) && totalhour >= 1)
+                {
+                    return totalhour * vehicle.ChargePerHour;
+                }
 
                  }
+            return 0;
 
+        }
         public IEnumerable<Vehicle> GetVehicles()
         {
-            throw new NotImplementedException();
+            return VehicleDBContext.vehicle;
         }
-
-        public Task<int> AddParking(Vehicle vehicle)
+        Vehicle RemoveParking(int ParkinfSlotNumber)
         {
-            throw new NotImplementedException();
+            Vehicle vehicle = vehicleDBContext.vehicle.find(ParkingSlotNumber);
+            if (vehicle != null)
+            {
+                vehicleDBContext.vehicle.Remove(vehicle);
+            }
+            vehiclelist.Remove(vehicle);
+            return vehicle;
         }
     }
 }

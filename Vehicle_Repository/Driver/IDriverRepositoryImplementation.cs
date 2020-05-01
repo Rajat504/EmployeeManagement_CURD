@@ -29,6 +29,34 @@ namespace Vehicle_Repository.Driver
 
         }
 
-      
+        string IDriverRepository.GetParkingSpace()
+        {
+          
+        }
+
+        Vehicle IDriverRepository.GetVehicle(int ParkingSlotNumber)
+        {
+            throw new NotImplementedException();
+        }
+
+        double IDriverRepository.ParkingCharge(int ParkingSlotNumber)
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerable<Vehicle> IDriverRepository.GetVehicles()
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<int> IDriverRepository.AddParking(Vehicle vehicle)
+        {
+            throw new NotImplementedException();
+        }
+
+        Vehicle IDriverRepository.RemoveParking(int ParkingSlotNumber)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

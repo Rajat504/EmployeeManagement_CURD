@@ -15,5 +15,5 @@ namespace Vehicle_Repository.Driver
         Task<int> AddParking(Vehicle vehicle);
         Vehicle RemoveParking(int ParkingSlotNumber);
 
-    }
+   }
 }

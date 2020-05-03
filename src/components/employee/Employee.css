@@ -1,0 +1,206 @@
+body
+{
+    background: url(pattern.jpg);
+    backface-visibility:initial;
+}
+
+.table
+{
+    width: 1030px;
+    background:border-box;
+    background-color: seagreen;
+    text-align: match-parent;
+    padding:10px;
+    margin-right: 350px;
+}
+
+.navigation 
+{
+    margin-left: -7px;
+    margin-top: -8px;
+    display:#00ff21 ;
+    width: auto;
+    background: #157ae8;
+    padding: 4px;
+    word-spacing: 13px;
+    display: block;
+}
+
+.Employeespan
+{
+    margin-bottom: 20px;
+    margin-right: 64px;
+    display: inline-block;
+}
+
+.AddEmployee
+{
+    margin-top: 57px;
+    margin-left: 3px;
+    background-color: #157ae8;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    font-family: inherit;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.Header1 
+{
+    width: 364px;
+    height: 25px;
+    color: #fff;
+    top: 60px;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 6px 15px;
+    border: solid;
+    border-width: inherit;
+    border-color: #000;
+    font-size: 40px;
+    text-align: left;
+}
+
+.FIRST-NAME
+{
+    width: 220px;
+    height: 40px;
+    background: #ececec;
+    color: #000;
+    top: 24%;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 8px 15px;
+    border: solid;
+    border-width: inherit;
+    border-color: #000;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Adobe Arabic'; 
+}
+
+.LASTNAME 
+{
+    width: 200px;
+    height: 37px;
+    background: #ececec;
+    color: #000;
+    top: 22%;
+    left: 539px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 6px 15px;
+    border: solid;
+    border-width: inherit;
+    border-color: #000;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Adobe Arabic';
+}
+
+.EMAIL
+{
+    width: 200px;
+    height: 37px;
+    background: #ececec;
+    color: #000;
+    top: 22%;
+    left: 736px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 6px 15px;
+    border: solid;
+    border-width: inherit;
+    border-color: #000;
+    font-size: 25px;
+    text-align: left;
+    font-family: "Times New Roman";
+}
+
+Edit
+{
+    width: 220px;
+    height: 39px;
+    background: #ececec;
+    color: #000;
+    top: 24%;
+    left: 27%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 8px 15px;
+    border: solid;
+    border-width: inherit;
+    border-color: #000;
+    font-size: 30px;
+    text-align: left;
+    font-family: "Times New Roman";
+    
+}
+
+
+{
+    width: 220px;
+    height: 39px;
+    background: #ececec;
+    color: #000;
+    top: 24%;
+    left: 27%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 8px 15px;
+    border: solid;
+    border-width: inherit;
+    border-color: #000;
+    font-size: 30px;
+    text-align: left;
+    font-family: "Times New Roman";
+}
+
+.Edit {
+    width: 200px;
+    height: 37px;
+    background: #ececec;
+    color: #000;
+    top: 22%;
+    left: 933px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 6px 15px;
+    border: solid;
+    border-width: inherit;
+    border-color: #000;
+    font-size: 25px;
+    text-align: left;
+    font-family: "Times New Roman";
+}
+
+.Delete {
+    width: 200px;
+    height: 37px;
+    background: #ececec;
+    color: #000;
+    top: 22%;
+    left: 1130px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 6px 15px;
+    border: solid;
+    border-width: inherit;
+    border-color: #000;
+    font-size: 25px;
+    text-align: left;
+    font-family: "Times New Roman";
+}
+
+

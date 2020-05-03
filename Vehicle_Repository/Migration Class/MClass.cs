@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Vehicle_Repository
+namespace Vehicle_Repository.Migration_Class
 {
-    interface IParkingRepository
+    class MClass
     {
     }
 }

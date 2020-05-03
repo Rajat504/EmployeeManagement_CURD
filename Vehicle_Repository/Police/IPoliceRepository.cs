@@ -9,9 +9,10 @@ namespace Vehicle_Repository.Police
    public interface IPoliceRepository
    {
         string GetParkingSpace();
-        IEnumerable<Vehicle> GetVehicles();
+        DateTime AddEntryTime();
         Task<int> AddParking(Vehicle vehicle);
         Vehicle RemoveParking(int ParkingSlotNumber);
         double ParkingCharge(int ParkingSlotNumber);
+        Vehicle GetVehicle(int ParkingSlotNumber);
    }
 }

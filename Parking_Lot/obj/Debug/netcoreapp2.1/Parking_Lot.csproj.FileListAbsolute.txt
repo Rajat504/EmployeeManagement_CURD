@@ -6,11 +6,16 @@ C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lo
 C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.runtimeconfig.dev.json
 C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.dll
 C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.pdb
+C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\bin\Debug\netcoreapp2.1\Model_Class.dll
+C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\bin\Debug\netcoreapp2.1\Vehicle_Repository.dll
+C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\bin\Debug\netcoreapp2.1\Vehicle_Repository.pdb
+C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\bin\Debug\netcoreapp2.1\Model_Class.pdb
 C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.csprojAssemblyReference.cache
 C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.RazorAssemblyInfo.cache
 C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.RazorAssemblyInfo.cs
 C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.AssemblyInfoInputs.cache
 C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.AssemblyInfo.cs
 C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.RazorTargetAssemblyInfo.cache
+C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.csproj.CopyComplete
 C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.dll
 C:\Users\rajat\Desktop\ParkingLot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.pdb

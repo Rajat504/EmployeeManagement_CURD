@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Vehicle_Repository.Police
 {
-   public class IPoliceRepoImpL:IPoliceRepository
+   public class IPoliceRepoImpL
     {
-        private userdbcontext
+        
     }
 }

@@ -8,8 +8,9 @@ namespace Parking_Lot.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class ParkingController : ControllerBase
     {
+        
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()

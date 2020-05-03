@@ -1,0 +1,13 @@
+C:\Users\rajat\Desktop\ParkingLot\Vehicle_Repository\bin\Debug\netcoreapp2.1\Vehicle_Repository.deps.json
+C:\Users\rajat\Desktop\ParkingLot\Vehicle_Repository\bin\Debug\netcoreapp2.1\Vehicle_Repository.runtimeconfig.json
+C:\Users\rajat\Desktop\ParkingLot\Vehicle_Repository\bin\Debug\netcoreapp2.1\Vehicle_Repository.runtimeconfig.dev.json
+C:\Users\rajat\Desktop\ParkingLot\Vehicle_Repository\bin\Debug\netcoreapp2.1\Vehicle_Repository.dll
+C:\Users\rajat\Desktop\ParkingLot\Vehicle_Repository\bin\Debug\netcoreapp2.1\Vehicle_Repository.pdb
+C:\Users\rajat\Desktop\ParkingLot\Vehicle_Repository\bin\Debug\netcoreapp2.1\Model_Class.dll
+C:\Users\rajat\Desktop\ParkingLot\Vehicle_Repository\bin\Debug\netcoreapp2.1\Model_Class.pdb
+C:\Users\rajat\Desktop\ParkingLot\Vehicle_Repository\obj\Debug\netcoreapp2.1\Vehicle_Repository.csprojAssemblyReference.cache
+C:\Users\rajat\Desktop\ParkingLot\Vehicle_Repository\obj\Debug\netcoreapp2.1\Vehicle_Repository.AssemblyInfoInputs.cache
+C:\Users\rajat\Desktop\ParkingLot\Vehicle_Repository\obj\Debug\netcoreapp2.1\Vehicle_Repository.AssemblyInfo.cs
+C:\Users\rajat\Desktop\ParkingLot\Vehicle_Repository\obj\Debug\netcoreapp2.1\Vehicle_Repository.csproj.CopyComplete
+C:\Users\rajat\Desktop\ParkingLot\Vehicle_Repository\obj\Debug\netcoreapp2.1\Vehicle_Repository.dll
+C:\Users\rajat\Desktop\ParkingLot\Vehicle_Repository\obj\Debug\netcoreapp2.1\Vehicle_Repository.pdb

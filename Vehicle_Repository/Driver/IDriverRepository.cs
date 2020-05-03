@@ -10,10 +10,11 @@ namespace Vehicle_Repository.Driver
    {
         string GetParkingSpace();
         Vehicle GetVehicle(int ParkingSlotNumber);
-        double ParkingCharge(int ParkingSlotNumber);
+        Vehicle ParkingCharge(int ParkingSlotNumber);
         IEnumerable<Vehicle> GetVehicles();
         Task<int> AddParking(Vehicle vehicle);
         Vehicle RemoveParking(int ParkingSlotNumber);
+        DateTime AddExitTime();
 
    }
 }

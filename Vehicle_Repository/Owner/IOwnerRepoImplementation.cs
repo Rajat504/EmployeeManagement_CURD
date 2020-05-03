@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace Vehicle_Repository.Owner
 {
   
-    public class IOwnerRepoImplementation : IOwnerRepository
+    public class IOwnerRepoImplementation 
     {
-        public string AddParking
+        
     }
 }

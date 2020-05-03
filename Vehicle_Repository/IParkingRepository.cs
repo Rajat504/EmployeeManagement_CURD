@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Vehicle_Repository.security
+namespace Vehicle_Repository
 {
-   public class ISequrityRepoImplmentation
+    interface IParkingRepository
     {
-
     }
 }

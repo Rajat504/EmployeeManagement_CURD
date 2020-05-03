@@ -6,6 +6,7 @@ namespace Model_Class
 {
   public  class Vehicles
   {
+        
         public int ParkingSlotNumber
         {
             get;

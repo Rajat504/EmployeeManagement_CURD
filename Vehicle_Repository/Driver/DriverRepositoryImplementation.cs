@@ -6,15 +6,19 @@ using System.Threading.Tasks;
 
 namespace Vehicle_Repository.Driver
 {
-    public class IDriverRepositoryImplementation : IDriverRepository
+    public class DriverRepositoryImplementation : IDriverRepository
     {
         private readonly VehicleDBContext vehicleDBContext;
         public static List<Vehicle> vehiclelist = new List<Vehicle>(50);
-        public IDriverRepositoryImplementation(VehicleDBContext vehicleDBContext )
+        public DriverRepositoryImplementation(VehicleDBContext vehicleDBContext )
 
         {
             this.vehicleDBContext = vehicleDBContext;
         }
+        /// <summary>
+        /// adding the employee in the database
+        /// </summary>
+        /// <returns></returns>
 
         public string GetParkingSpace()
         {
@@ -29,32 +33,28 @@ namespace Vehicle_Repository.Driver
 
         }
 
-        string IDriverRepository.GetParkingSpace()
+
+        public Vehicle GetVehicle(int ParkingSlotNumber)
         {
-          
+            
         }
 
-        Vehicle IDriverRepository.GetVehicle(int ParkingSlotNumber)
-        {
-            throw new NotImplementedException();
-        }
-
-        double IDriverRepository.ParkingCharge(int ParkingSlotNumber)
+        public double ParkingCharge(int ParkingSlotNumber)
         {
             throw new NotImplementedException();
         }
 
-        IEnumerable<Vehicle> IDriverRepository.GetVehicles()
+        public IEnumerable<Vehicle> GetVehicles()
         {
             throw new NotImplementedException();
         }
 
-        Task<int> IDriverRepository.AddParking(Vehicle vehicle)
+        public Task<int> AddParking(Vehicle vehicle)
         {
             throw new NotImplementedException();
         }
 
-        Vehicle IDriverRepository.RemoveParking(int ParkingSlotNumber)
+        public Vehicle RemoveParking(int ParkingSlotNumber)
         {
             throw new NotImplementedException();
         }

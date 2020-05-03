@@ -1,18 +1,14 @@
-﻿using System;
+﻿using Bogus.DataSets;
+using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Vehicle_Repository.Owner
 {
-  public class IOwnerRepoImplementation : IOwnerRepository
-  {
-        public readonly VehicleDBContext vehicleDBContext;
-        public IOwnerRepoImplementation(VehicleDBContext vehicleDBContext)
-        {
-            this.vehicleDBContext = vehicleDBContext;
-        }
-        public 
-
-
-  }
+  
+    public class IOwnerRepoImplementation : IOwnerRepository
+    {
+        public string AddParking
+    }
 }
